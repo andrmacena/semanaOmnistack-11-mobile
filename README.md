@@ -6,9 +6,9 @@ App Preview
 </h2>  
 
 <p align="center">
-  <img alt="desktop" src="./public/preview-readme/splash.jpeg" width="500px">
-  <img alt="desktop" src="./public/preview-readme/home.jpeg" width="500px">
-  <img alt="desktop" src="./public/preview-readme/detail.jpeg" width="500px">
+  <img alt="desktop" src="./public/preview-readme/splash.jpeg" width="300px" height="600px">
+  <img alt="desktop" src="./public/preview-readme/home.jpeg" width="300px" height="600px">
+  <img alt="desktop" src="./public/preview-readme/detail.jpeg" width="300px" height="600px">
 </p>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/andrmacena/semanaOmnistack-11-mobile?color=%2304D361">
