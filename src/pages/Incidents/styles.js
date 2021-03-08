@@ -8,57 +8,57 @@ export default StyleSheet.create({
       paddingHorizontal: 24,
       paddingTop: Constants.statusBarHeight + 20,
    },
-   header:{
+   header: {
       flexDirection: 'row',
       justifyContent: "space-between",
       alignItems: 'center'
    },
-   headerText:{
+   headerText: {
       fontSize: 15,
       color: '#737380'
    },
-   headerTextBold:{
-      fontWeight: "bold" 
+   headerTextBold: {
+      fontWeight: "bold"
    },
-   title:{
+   title: {
       fontSize: 30,
       marginBottom: 16,
       marginTop: 48,
       color: '#13131a',
       fontWeight: "bold"
    },
-   description:{
+   description: {
       fontSize: 16,
       lineHeight: 24,
       color: '#737380'
    },
-   incidentList:{
+   incidentList: {
       marginTop: 32
    },
-   incident:{
+   incident: {
       padding: 24,
       borderRadius: 8,
       backgroundColor: '#FFF',
       marginBottom: 16
    },
-   incidentProperty:{
+   incidentProperty: {
       fontSize: 14,
-      color:'#41414d',
+      color: '#41414d',
       fontWeight: 'bold'
    },
-   incidentValue:{
+   incidentValue: {
       marginTop: 8,
       fontSize: 15,
       marginBottom: 24,
       color: '#737380'
    },
-   detailsButton:{
+   detailsButton: {
       flexDirection: 'row',
-      justifyContent:'space-between',
+      justifyContent: 'space-between',
       alignItems: 'center'
    },
-   detailsButtonText:{
-      color:'#E04021',
+   detailsButtonText: {
+      color: '#E04021',
       fontSize: 15,
       fontWeight: 'bold'
    }
