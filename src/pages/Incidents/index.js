@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { View, FlatList, Text, Image, TouchableOpacity } from 'react-native'
+import { View, FlatList, Text, Image, TouchableOpacity, ActivityIndicator } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { Feather } from '@expo/vector-icons'
 
@@ -39,6 +39,13 @@ export default function Incidents() {
       setLoading(false)
    }
 
+   function handleLoading() {
+      if (loading) {
+         return <ActivityIndicator size="large" color='#E04021'/>
+      }
+
+   }
+
    useEffect(() => {
       loadIncidents()
 
@@ -56,6 +63,7 @@ export default function Incidents() {
          <Text style={styles.title}>Bem vindo</Text>
          <Text style={styles.description}>Escolha um dos casos abaixo e salve o dia</Text>
 
+         {handleLoading()}
          <FlatList
             data={incidents}
             style={styles.incidentList}
